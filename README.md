@@ -13,6 +13,33 @@ It provides:
 
 ---
 
+## Datasets
+
+### Synthetic Data — BP 2004 Benchmark Dataset
+To provide a controlled experimental setup and evaluate the proposed conditional diffusion framework, synthetic experiments were conducted using the **BP 2004 Benchmark dataset** (Billette & Brandsberg-Dahl, 2005).  
+This dataset contains realistic synthetic seismic shot gathers with complex wave phenomena, while offering a fully controlled ground truth.
+
+- Official description (SEG Wiki):  
+  https://wiki.seg.org/wiki/2004_BP_velocity_benchmark
+- Reference:  
+  Billette, F., & Brandsberg-Dahl, S. (2005). *The 2004 BP velocity benchmark*. SEG Annual Meeting.
+
+> **Note:** The dataset is publicly available for research and educational use. Please follow the terms specified by SEG.
+
+---
+
+### Field Data — Mobil AVO Viking Graben Line 12 (SEG Open Data)
+Field-data experiments were performed using real shot gathers from the **Mobil AVO Viking Graben Line 12 survey**, provided through the **SEG Open Data** initiative.  
+The dataset consists of **1001 seismic shot gathers** and exhibits realistic acquisition effects, ambient noise, and amplitude variations with offset, posing significant challenges for interpolation methods.
+
+- Dataset page (SEG Open Data):  
+  https://wiki.seg.org/wiki/Mobil_AVO_Viking_Graben_Line_12
+- Provider: SEG Open Data / Mobil
+
+> **Note:** This repository does **not** include the field SEGY files.  
+> Users must download the data separately from SEG Open Data and ensure compliance with the dataset’s usage terms.
+
+
 ## Repository structure
 
 ├── field_data/

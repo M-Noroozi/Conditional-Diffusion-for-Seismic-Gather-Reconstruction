@@ -1,0 +1,6 @@
+numpy
+tqdm
+matplotlib
+torch
+segyio
+obspy

@@ -538,7 +538,7 @@ def train_one_ratio(
 # MAIN
 # -----------------------------
 if __name__ == "__main__":
-    SEGY_DIR  = r"D:\Geophysics\PHD\thesis\data\synthetic_data\shots0601_0800"
+    SEGY_DIR  = r"---"
     SEGY_GLOB = "*.segy"
     RATIOS    = [0.2]
 
